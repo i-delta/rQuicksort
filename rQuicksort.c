@@ -23,8 +23,7 @@ static unsigned random_index(unsigned int min, unsigned int max){
 }
 
 
-static void exchange(int *a, int *b)
-{
+static void exchange(int *a, int *b){
 	int t;
 	t = *a;
 	*a = *b;
